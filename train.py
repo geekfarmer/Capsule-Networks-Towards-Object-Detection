@@ -142,7 +142,8 @@ train_datagen_augmented.fit(x_test)
 inference_datagen.fit(x_test)
 inference_datagen.fit(x_test)
 
-#fig = plt.figure()
+"""
+fig = plt.figure()
 
 n = 0
 
@@ -156,8 +157,8 @@ for x_batch, y_batch in train_datagen_augmented.flow(x_test, y_test, batch_size=
         break
 
     
-#plt.show()
-
+plt.show()
+"""
 
 # In[7]:
 
