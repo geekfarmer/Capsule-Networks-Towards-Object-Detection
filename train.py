@@ -49,7 +49,7 @@ import numpy as np
 import random
 from PIL import Image, ImageEnhance
 # Visualizations will be shown in the notebook.
-get_ipython().magic('matplotlib inline')
+#get_ipython().magic('matplotlib inline')
 
 # Load name of id
 with open("./data/classnames.csv", "r") as f:
