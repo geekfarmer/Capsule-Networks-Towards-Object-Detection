@@ -12,6 +12,8 @@ This is a temporary script file.
 """
 
 import random
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 from keras.datasets import cifar100
 from keras.utils import to_categorical
 from keras.models import Model
