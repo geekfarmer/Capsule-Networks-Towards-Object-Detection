@@ -60,7 +60,7 @@ print(id_to_name[1])
 
 # In[3]:
 
-
+"""
 graph_size = 3
 random_index_list = [random.randint(0, x_train.shape[0]) for _ in range(graph_size * graph_size)]
 fig = plt.figure(figsize=(15, 15))
@@ -91,7 +91,7 @@ print ("Most common index")
 most_common_index = sorted(range(len(values)), key=lambda k: values[k], reverse=True)
 for index in most_common_index[:10]:
     print("index: %s => %s" % (index, values[index]))
-
+"""
 
 # In[5]:
 
