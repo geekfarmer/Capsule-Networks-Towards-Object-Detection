@@ -142,7 +142,7 @@ train_datagen_augmented.fit(x_test)
 inference_datagen.fit(x_test)
 inference_datagen.fit(x_test)
 
-fig = plt.figure()
+#fig = plt.figure()
 
 n = 0
 
