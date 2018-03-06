@@ -67,10 +67,10 @@ fig = plt.figure(figsize=(15, 15))
 for i, index in enumerate(random_index_list):
     a=fig.add_subplot(graph_size, graph_size, i+1)
     #im = Image.fromarray(np.rollaxis(X_train[index] * 255, 0,3))
-    imgplot = plt.imshow(x_train[index])
+   # imgplot = plt.imshow(x_train[index])
     # Plot some images
 
-plt.show()
+#plt.show()
 
 
 # In[4]:
@@ -150,13 +150,13 @@ graph_size = 3
 
 for x_batch, y_batch in train_datagen_augmented.flow(x_test, y_test, batch_size=1):
     a=fig.add_subplot(graph_size, graph_size, n+1)
-    imgplot = plt.imshow(x_batch[0])
+   # imgplot = plt.imshow(x_batch[0])
     n = n + 1
     if n > 8:
         break
 
     
-plt.show()
+#plt.show()
 
 
 # In[7]:
